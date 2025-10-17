@@ -67,6 +67,8 @@ class Pipeline:
             {"id": "claude-opus-4-20250514", "name": "claude-4-opus"},
             {"id": "claude-sonnet-4-20250514", "name": "claude-4-sonnet"},
             {"id": "claude-opus-4-1-20250805", "name": "claude-4.1-opus"},
+            {"id": "claude-sonnet-4-5-20250929", "name": "claude-4.5-sonnet"},
+            {"id": "claude-haiku-4-5-20251001", "name": "claude-4.5-haiku"}
         ]
 
     def get_thinking_supported_models(self):
@@ -74,7 +76,8 @@ class Pipeline:
         return [
             "claude-3-7",
             "claude-sonnet-4",
-            "claude-opus-4"
+            "claude-opus-4",
+            "claude-haiku-4-5"
         ]
 
     async def on_startup(self):
