@@ -67,6 +67,7 @@ class Pipeline:
             {"id": "claude-opus-4-20250514", "name": "claude-4-opus"},
             {"id": "claude-sonnet-4-20250514", "name": "claude-4-sonnet"},
             {"id": "claude-opus-4-1-20250805", "name": "claude-4.1-opus"},
+            {"id": "claude-opus-4-5-20251101", "name": "claude-4.5-opus"},
             {"id": "claude-sonnet-4-5-20250929", "name": "claude-4.5-sonnet"},
             {"id": "claude-haiku-4-5-20251001", "name": "claude-4.5-haiku"}
         ]
